@@ -1,0 +1,275 @@
+/* ===== About Page ===== */
+
+.about-label {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 0.875rem;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+/* ---- Hero ---- */
+.about-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  background: linear-gradient(180deg, #eaf1fd 0%, #f5f9ff 100%);
+  padding: 4rem 5%;
+}
+
+.about-hero-text {
+  max-width: 34rem;
+}
+
+.about-hero-text h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.about-hero-text p {
+  color: #6b7280;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.about-hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-hero-image img {
+  width: 100%;
+  max-width: 28rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 1.5rem 3rem rgba(37, 99, 235, 0.15);
+  object-fit: cover;
+}
+
+/* ---- Stats ---- */
+.about-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  padding: 3rem 5%;
+  text-align: center;
+}
+
+.stat-item h2 {
+  color: #2563eb;
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.stat-item p {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+/* ---- Values ---- */
+.about-values {
+  padding: 4rem 5%;
+  background-color: #ffffff;
+}
+
+.values-heading {
+  text-align: center;
+  max-width: 36rem;
+  margin: 0 auto 2.5rem auto;
+}
+
+.values-heading h2 {
+  color: #111827;
+  font-size: 1.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.values-heading p {
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.value-card {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.value-card:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 1rem 2rem rgba(17, 24, 39, 0.08);
+}
+
+.value-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem auto;
+  font-size: 1.5rem;
+}
+
+.icon-blue {
+  background-color: #dbeafe;
+  color: #2563eb;
+}
+
+.icon-purple {
+  background-color: #ede9fe;
+  color: #7c3aed;
+}
+
+.icon-green {
+  background-color: #dcfce7;
+  color: #16a34a;
+}
+
+.icon-pink {
+  background-color: #fce7f3;
+  color: #db2777;
+}
+
+.value-card h3 {
+  color: #111827;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.value-card p {
+  color: #6b7280;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* ---- Story ---- */
+.about-story {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem 5%;
+  background-color: #f5f9ff;
+}
+
+.story-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.story-image img {
+  width: 100%;
+  max-width: 26rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 1rem 2rem rgba(17, 24, 39, 0.1);
+  object-fit: cover;
+}
+
+.story-text {
+  flex: 1;
+  max-width: 32rem;
+}
+
+.story-text h2 {
+  color: #111827;
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+
+.story-text p {
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.story-highlight {
+  color: #2563eb !important;
+  font-weight: 600;
+}
+
+/* ---- CTA ---- */
+.about-cta {
+  text-align: center;
+  padding: 4rem 5%;
+  background: linear-gradient(180deg, #f5f9ff 0%, #eaf1fd 100%);
+}
+
+.about-cta h2 {
+  color: #111827;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #2563eb;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.9rem 2rem;
+  border-radius: 0.75rem;
+  transition: background-color 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #1d4ed8;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 6%;
+  }
+
+  .about-hero-text {
+    max-width: 100%;
+  }
+
+  .about-story {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .story-text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .about-stats {
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,154 @@
+.related-products {
+  margin-top: 2rem;
+}
+
+.related-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.related-heading h2 {
+  margin-bottom: 0.25rem;
+  color: #111827;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.related-heading p {
+  color: #64748b;
+  font-size: 0.8rem;
+}
+
+.related-heading a {
+  color: #4f46e5;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.related-heading a:hover {
+  color: #3730a3;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.related-card {
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  background-color: #ffffff;
+}
+
+.related-image {
+  position: relative;
+  height: 11rem;
+  padding: 1rem;
+  background-color: #f8fafc;
+}
+
+.related-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.related-wishlist {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.65rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2rem;
+  height: 2rem;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 50%;
+
+  background-color: #ffffff;
+  color: #64748b;
+}
+
+.related-wishlist:hover {
+  color: #ef4444;
+}
+
+.related-info {
+  padding: 0.85rem;
+}
+
+.related-category {
+  margin-bottom: 0.25rem;
+  color: #64748b;
+  font-size: 0.7rem;
+}
+
+.related-info h3 {
+  margin-bottom: 0.4rem;
+  color: #111827;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.related-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-bottom: 0.5rem;
+  color: #f59e0b;
+  font-size: 0.75rem;
+}
+
+.related-rating svg {
+  fill: #f59e0b;
+}
+
+.related-rating span:last-child {
+  color: #64748b;
+}
+
+.related-price {
+  color: #1e3a8a;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .related-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .related-products {
+    margin-top: 1rem;
+  }
+
+  .related-heading h2 {
+    font-size: 1.1rem;
+  }
+
+  .related-heading p {
+    font-size: 0.75rem;
+  }
+
+  .related-grid {
+    gap: 0.75rem;
+  }
+
+  .related-image {
+    height: 9rem;
+  }
+
+  .related-info {
+    padding: 0.7rem;
+  }
+}

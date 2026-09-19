@@ -1,0 +1,143 @@
+.newsletter-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1.5rem 3%;
+  margin: 0 3% 2rem;
+  background-color: #eff6ff;
+  border-radius: 0.75rem;
+}
+
+.newsletter-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.newsletter-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border-radius: 50%;
+}
+
+.newsletter-text h3 {
+  color: #111827;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.newsletter-text p {
+  color: #6b7280;
+  font-size: 0.8rem;
+  max-width: 20rem;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.newsletter-form input {
+  padding: 0.6rem 0.9rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  width: 14rem;
+}
+
+.newsletter-form input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.newsletter-form button {
+  padding: 0.6rem 1.1rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.newsletter-form button:hover {
+  background-color: #1d4ed8;
+}
+
+.newsletter-perks {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.perk {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.perk-icon {
+  color: #2563eb;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.perk h4 {
+  color: #111827;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.perk p {
+  color: #6b7280;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .newsletter-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .newsletter-form {
+    width: 100%;
+  }
+
+  .newsletter-form input {
+    flex: 1;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .newsletter-section {
+    padding: 1.25rem 5%;
+  }
+
+  .newsletter-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    font-size: 1.1rem;
+  }
+
+  .newsletter-text p {
+    max-width: 100%;
+  }
+
+  .newsletter-perks {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.9rem;
+  }
+}

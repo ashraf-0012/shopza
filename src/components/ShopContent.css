@@ -1,0 +1,36 @@
+.shop-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem 3% 3rem;
+}
+
+.shop-products {
+  flex: 1;
+}
+
+.shop-products h2 {
+  color: #111827;
+  font-size: 1.2rem;
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+  .shop-content {
+    flex-direction: column;
+    padding: 1.5rem 4% 2.5rem;
+  }
+
+  .shop-products {
+    width: 100%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .shop-content {
+    gap: 1rem;
+    padding: 1.25rem 5% 2rem;
+  }
+}

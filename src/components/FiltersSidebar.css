@@ -1,0 +1,167 @@
+.filters-sidebar {
+  width: 16rem;
+  flex-shrink: 0;
+
+  padding: 1rem;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+
+  background-color: #ffffff;
+  height: fit-content;
+}
+
+/* =========================
+   FILTER HEADER
+========================= */
+
+.filters-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-bottom: 0.85rem;
+  margin-bottom: 0.85rem;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.filters-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.filters-title svg {
+  color: #2563eb;
+  font-size: 1.05rem;
+}
+
+.filters-title h3 {
+  color: #111827;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.clear-all {
+  border: none;
+  background: transparent;
+
+  color: #2563eb;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.clear-all:hover {
+  color: #1d4ed8;
+}
+
+/* =========================
+   FILTER GROUP
+========================= */
+
+.filter-group {
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.filter-group:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+/* Group heading + arrow */
+
+.filter-group-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 0.5rem;
+}
+
+.filter-group-heading h4 {
+  color: #111827;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.filter-group-heading svg {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+/* =========================
+   OPTIONS
+========================= */
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+
+  margin-bottom: 0.35rem;
+
+  color: #374151;
+  font-size: 0.8rem;
+
+  cursor: pointer;
+}
+
+.filter-option:last-child {
+  margin-bottom: 0;
+}
+
+.filter-option input {
+  width: 0.95rem;
+  height: 0.95rem;
+
+  accent-color: #2563eb;
+
+  cursor: pointer;
+}
+
+/* Rating */
+
+.rating-option {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.rating-option svg {
+  color: #f59e0b;
+  fill: #f59e0b;
+  font-size: 0.75rem;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 768px) {
+  .filters-sidebar {
+    width: 100%;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 480px) {
+  .filters-heading {
+    gap: 1rem;
+  }
+
+  .filters-title {
+    gap: 0.5rem;
+  }
+
+  .clear-all {
+    flex-shrink: 0;
+  }
+}

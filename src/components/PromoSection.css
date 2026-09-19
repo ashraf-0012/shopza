@@ -1,0 +1,93 @@
+.promo-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0 3% 2rem;
+}
+
+.promo-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  background-color: #eff6ff;
+  border-radius: 0.75rem;
+}
+
+.promo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  background-color: #dbeafe;
+  color: #2563eb;
+  font-size: 1.3rem;
+  border-radius: 50%;
+}
+
+.promo-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.promo-text h3 {
+  color: #111827;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.promo-text p {
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+.promo-button {
+  flex-shrink: 0;
+  padding: 0.6rem 1.1rem;
+  border-radius: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.promo-button-filled {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.promo-button-filled:hover {
+  background-color: #1d4ed8;
+}
+
+.promo-button-outline {
+  background-color: #ffffff;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+}
+
+.promo-button-outline:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .promo-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .promo-box {
+    flex-wrap: wrap;
+    padding: 1.1rem;
+  }
+
+  .promo-button {
+    width: 100%;
+    text-align: center;
+  }
+}

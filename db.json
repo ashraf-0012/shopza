@@ -1,0 +1,1286 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 14 Pro Max",
+      "category": "Electronics",
+      "price": 600000,
+      "oldPrice": 720000,
+      "discount": 17,
+      "image": "/images/products/iphone.png",
+      "images": [
+        "/images/products/iphone.png",
+        "/images/products/iphone-2.png",
+        "/images/products/iphone-3.png"
+      ],
+      "rating": 4.8,
+      "reviewCount": 128,
+      "featured": true,
+      "badge": "Best Seller",
+      "colors": [
+        "Space Black",
+        "Silver",
+        "Gold"
+      ],
+      "description": "Experience powerful performance, a stunning display, and an advanced camera system with the iPhone 14 Pro Max.",
+      "highlights": [
+        {
+          "title": "Powerful Performance",
+          "description": "Fast and responsive performance for everyday tasks."
+        },
+        {
+          "title": "Advanced Camera",
+          "description": "Capture detailed photos and videos with the advanced camera system."
+        },
+        {
+          "title": "Stunning Display",
+          "description": "Enjoy a bright and immersive display experience."
+        },
+        {
+          "title": "All-Day Battery",
+          "description": "Stay powered throughout your day."
+        }
+      ],
+      "specifications": {
+        "Display": "6.7-inch",
+        "Storage": "128GB",
+        "Camera": "48MP",
+        "Battery": "All-day battery life"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Smartwatch",
+      "category": "Electronics",
+      "price": 35000,
+      "oldPrice": 45000,
+      "discount": 22,
+      "image": "/images/products/smartwatch.png",
+      "images": [
+        "/images/products/smartwatch.png",
+        "https://images.pexels.com/photos/10339115/pexels-photo-10339115.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/3161378/pexels-photo-3161378.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.6,
+      "reviewCount": 94,
+      "featured": false,
+      "badge": "Popular",
+      "colors": [
+        "Black",
+        "Silver",
+        "Blue"
+      ],
+      "description": "Stay connected and track your daily activities with this stylish smartwatch.",
+      "highlights": [
+        {
+          "title": "Activity Tracking",
+          "description": "Track your daily steps, activity, and fitness goals."
+        },
+        {
+          "title": "Smart Notifications",
+          "description": "Receive calls, messages, and app notifications on your wrist."
+        },
+        {
+          "title": "Comfortable Design",
+          "description": "A lightweight design made for comfortable everyday wear."
+        },
+        {
+          "title": "Long Battery Life",
+          "description": "Enjoy reliable battery performance throughout your day."
+        }
+      ],
+      "specifications": {
+        "Display": "1.8-inch",
+        "Connectivity": "Bluetooth",
+        "Battery": "Up to 7 days",
+        "Water Resistance": "IP67"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 25000,
+      "oldPrice": 32000,
+      "discount": 22,
+      "image": "/images/products/speaker.png",
+      "images": [
+        "/images/products/speaker.png",
+        "https://images.pexels.com/photos/33080375/pexels-photo-33080375.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/31341733/pexels-photo-31341733.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.4,
+      "reviewCount": 76,
+      "featured": false,
+      "badge": "Popular",
+      "colors": [
+        "Black",
+        "Blue",
+        "Red"
+      ],
+      "description": "Enjoy powerful portable sound with this compact Bluetooth speaker.",
+      "highlights": [
+        {
+          "title": "Powerful Sound",
+          "description": "Enjoy clear audio with strong and balanced sound."
+        },
+        {
+          "title": "Portable Design",
+          "description": "Compact and lightweight for music on the go."
+        },
+        {
+          "title": "Wireless Connection",
+          "description": "Connect easily to compatible devices using Bluetooth."
+        },
+        {
+          "title": "Rechargeable Battery",
+          "description": "Built-in battery provides convenient portable listening."
+        }
+      ],
+      "specifications": {
+        "Connectivity": "Bluetooth 5.0",
+        "Battery": "Up to 10 hours",
+        "Output": "10W",
+        "Charging": "USB-C"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Wireless Keyboard",
+      "category": "Electronics",
+      "price": 18000,
+      "oldPrice": 24000,
+      "discount": 25,
+      "image": "/images/products/wireless-keyboard.png",
+      "images": [
+        "/images/products/wireless-keyboard.png",
+        "https://images.pexels.com/photos/4523056/pexels-photo-4523056.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/34051149/pexels-photo-34051149.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.3,
+      "reviewCount": 61,
+      "featured": false,
+      "badge": "Great Value",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "description": "A comfortable wireless keyboard designed for everyday work and browsing.",
+      "highlights": [
+        {
+          "title": "Comfortable Typing",
+          "description": "Responsive keys provide a comfortable typing experience."
+        },
+        {
+          "title": "Wireless Freedom",
+          "description": "Work without the clutter of unnecessary cables."
+        },
+        {
+          "title": "Compact Design",
+          "description": "A clean design that fits easily on your desk."
+        },
+        {
+          "title": "Long Battery Life",
+          "description": "Designed for reliable everyday use between battery changes."
+        }
+      ],
+      "specifications": {
+        "Connection": "2.4GHz Wireless",
+        "Layout": "Full Size",
+        "Battery": "Up to 12 months",
+        "Compatibility": "Windows / Mac"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Casual T-Shirt",
+      "category": "Fashion",
+      "price": 7000,
+      "oldPrice": 10000,
+      "discount": 30,
+      "image": "/images/products/casual-tshirt.png",
+      "images": [
+        "/images/products/casual-tshirt.png",
+        "https://images.pexels.com/photos/8217431/pexels-photo-8217431.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/5996257/pexels-photo-5996257.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.5,
+      "reviewCount": 113,
+      "featured": false,
+      "badge": "Everyday Pick",
+      "colors": [
+        "Black",
+        "White",
+        "Gray",
+        "Blue"
+      ],
+      "description": "A comfortable casual T-shirt made for everyday style and comfort.",
+      "highlights": [
+        {
+          "title": "Soft Fabric",
+          "description": "Made with comfortable fabric for everyday wear."
+        },
+        {
+          "title": "Classic Fit",
+          "description": "A versatile fit that works well with different outfits."
+        },
+        {
+          "title": "Breathable Feel",
+          "description": "Lightweight material helps keep you comfortable."
+        },
+        {
+          "title": "Easy to Style",
+          "description": "Simple design that pairs easily with casual clothing."
+        }
+      ],
+      "specifications": {
+        "Material": "Cotton Blend",
+        "Fit": "Regular",
+        "Sleeve": "Short Sleeve",
+        "Care": "Machine Wash"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Hoodie",
+      "category": "Fashion",
+      "price": 15000,
+      "oldPrice": 20000,
+      "discount": 25,
+      "image": "/images/products/hoodie.png",
+      "images": [
+        "/images/products/hoodie.png",
+        "https://images.pexels.com/photos/7479825/pexels-photo-7479825.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/1239785/pexels-photo-1239785.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.7,
+      "reviewCount": 87,
+      "featured": true,
+      "badge": "Best Seller",
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
+      "description": "Stay warm and comfortable with this soft everyday hoodie.",
+      "highlights": [
+        {
+          "title": "Soft Material",
+          "description": "Comfortable fabric provides a soft feel against the skin."
+        },
+        {
+          "title": "Warm Design",
+          "description": "Ideal for cool days and relaxed everyday wear."
+        },
+        {
+          "title": "Adjustable Hood",
+          "description": "The hood provides extra coverage when needed."
+        },
+        {
+          "title": "Everyday Comfort",
+          "description": "Designed for casual activities and daily use."
+        }
+      ],
+      "specifications": {
+        "Material": "Cotton Blend",
+        "Fit": "Regular",
+        "Hood": "Adjustable",
+        "Care": "Machine Wash"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Denim Jacket",
+      "category": "Fashion",
+      "price": 25000,
+      "oldPrice": 32000,
+      "discount": 22,
+      "image": "/images/products/jacket.png",
+      "images": [
+        "/images/products/jacket.png",
+        "https://images.pexels.com/photos/16428589/pexels-photo-16428589.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/7076219/pexels-photo-7076219.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.6,
+      "reviewCount": 72,
+      "featured": false,
+      "badge": "Classic",
+      "colors": [
+        "Blue",
+        "Black"
+      ],
+      "description": "A classic denim jacket that adds a stylish touch to any outfit.",
+      "highlights": [
+        {
+          "title": "Classic Denim",
+          "description": "A timeless denim design suitable for many occasions."
+        },
+        {
+          "title": "Durable Fabric",
+          "description": "Strong material designed for regular everyday wear."
+        },
+        {
+          "title": "Versatile Style",
+          "description": "Easy to layer over shirts and casual outfits."
+        },
+        {
+          "title": "Comfortable Fit",
+          "description": "Designed to provide comfortable movement throughout the day."
+        }
+      ],
+      "specifications": {
+        "Material": "Denim",
+        "Fit": "Regular",
+        "Closure": "Button",
+        "Care": "Machine Wash"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Sneakers",
+      "category": "Fashion",
+      "price": 30000,
+      "oldPrice": 40000,
+      "discount": 25,
+      "image": "/images/products/sneakers.png",
+      "images": [
+        "/images/products/sneakers.png",
+        "https://images.pexels.com/photos/20298288/pexels-photo-20298288.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.8,
+      "reviewCount": 145,
+      "featured": false,
+      "badge": "Top Rated",
+      "colors": [
+        "White",
+        "Black",
+        "Gray"
+      ],
+      "description": "Comfortable everyday sneakers designed for casual wear.",
+      "highlights": [
+        {
+          "title": "Comfortable Cushioning",
+          "description": "Cushioned support helps keep your feet comfortable."
+        },
+        {
+          "title": "Lightweight Build",
+          "description": "Designed to feel light during everyday movement."
+        },
+        {
+          "title": "Durable Sole",
+          "description": "A sturdy sole provides reliable everyday traction."
+        },
+        {
+          "title": "Versatile Style",
+          "description": "Works well with casual outfits and everyday looks."
+        }
+      ],
+      "specifications": {
+        "Upper": "Synthetic",
+        "Sole": "Rubber",
+        "Closure": "Lace-Up",
+        "Use": "Casual Wear"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Face Cream",
+      "category": "Beauty",
+      "price": 10000,
+      "oldPrice": 14000,
+      "discount": 29,
+      "image": "/images/products/face-cream.png",
+      "images": [
+        "/images/products/face-cream.png",
+        "https://images.pexels.com/photos/7941454/pexels-photo-7941454.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/9475732/pexels-photo-9475732.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.4,
+      "reviewCount": 68,
+      "featured": true,
+      "badge": "Popular",
+      "colors": [
+        "Original"
+      ],
+      "description": "A smooth and lightweight face cream for everyday skincare.",
+      "highlights": [
+        {
+          "title": "Lightweight Texture",
+          "description": "A smooth texture that feels comfortable on the skin."
+        },
+        {
+          "title": "Daily Moisture",
+          "description": "Helps keep skin feeling soft and moisturized."
+        },
+        {
+          "title": "Easy Application",
+          "description": "Simple formula designed for convenient daily use."
+        },
+        {
+          "title": "Everyday Skincare",
+          "description": "Suitable for adding moisture to your regular skincare routine."
+        }
+      ],
+      "specifications": {
+        "Size": "50ml",
+        "Texture": "Cream",
+        "Use": "Daily",
+        "Skin Type": "Normal"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Perfume",
+      "category": "Beauty",
+      "price": 25000,
+      "oldPrice": 32000,
+      "discount": 22,
+      "image": "/images/products/perfume.png",
+      "images": [
+        "/images/products/perfume.png",
+        "https://images.pexels.com/photos/258244/pexels-photo-258244.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/27991505/pexels-photo-27991505.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.7,
+      "reviewCount": 121,
+      "featured": false,
+      "badge": "Trending",
+      "colors": [
+        "Original"
+      ],
+      "description": "A long-lasting fragrance with an elegant and refreshing scent.",
+      "highlights": [
+        {
+          "title": "Elegant Fragrance",
+          "description": "A refined scent designed for everyday and special occasions."
+        },
+        {
+          "title": "Long Lasting",
+          "description": "Designed to provide a lasting fragrance experience."
+        },
+        {
+          "title": "Refreshing Scent",
+          "description": "A balanced fragrance with a fresh and pleasant character."
+        },
+        {
+          "title": "Gift Ready",
+          "description": "An elegant choice for gifting or personal use."
+        }
+      ],
+      "specifications": {
+        "Size": "100ml",
+        "Type": "Eau de Parfum",
+        "Scent": "Fresh",
+        "Use": "Everyday"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Lipstick",
+      "category": "Beauty",
+      "price": 4500,
+      "oldPrice": 6000,
+      "discount": 25,
+      "image": "/images/products/lipstick.png",
+      "images": [
+        "/images/products/lipstick.png",
+        "https://images.pexels.com/photos/7256082/pexels-photo-7256082.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/7810600/pexels-photo-7810600.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.5,
+      "reviewCount": 83,
+      "featured": false,
+      "badge": "New",
+      "colors": [
+        "Red",
+        "Pink",
+        "Nude"
+      ],
+      "description": "A smooth lipstick that provides rich color and comfortable wear.",
+      "highlights": [
+        {
+          "title": "Rich Color",
+          "description": "Provides bold and vibrant color with smooth application."
+        },
+        {
+          "title": "Smooth Finish",
+          "description": "Applies evenly for a polished look."
+        },
+        {
+          "title": "Comfortable Wear",
+          "description": "Designed to feel comfortable during everyday use."
+        },
+        {
+          "title": "Easy Application",
+          "description": "Convenient format for quick and simple application."
+        }
+      ],
+      "specifications": {
+        "Finish": "Satin",
+        "Size": "3.5g",
+        "Type": "Lipstick",
+        "Use": "Makeup"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Modern Table Lamp",
+      "category": "Home & Living",
+      "price": 15000,
+      "oldPrice": 20000,
+      "discount": 25,
+      "image": "/images/products/table-lamp.png",
+      "images": [
+        "/images/products/table-lamp.png",
+        "https://images.pexels.com/photos/8263851/pexels-photo-8263851.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/4612401/pexels-photo-4612401.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.5,
+      "reviewCount": 59,
+      "featured": false,
+      "badge": "Home Pick",
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "description": "A modern table lamp that adds warm and stylish lighting to your space.",
+      "highlights": [
+        {
+          "title": "Modern Design",
+          "description": "A clean design that complements contemporary spaces."
+        },
+        {
+          "title": "Warm Lighting",
+          "description": "Creates a comfortable atmosphere for your room."
+        },
+        {
+          "title": "Compact Size",
+          "description": "Fits easily on desks, side tables, and nightstands."
+        },
+        {
+          "title": "Easy Operation",
+          "description": "Simple controls make everyday use convenient."
+        }
+      ],
+      "specifications": {
+        "Light Type": "LED",
+        "Power": "10W",
+        "Control": "Switch",
+        "Use": "Indoor"
+      }
+    },
+    {
+      "id": "13",
+      "name": "Throw Pillow",
+      "category": "Home & Living",
+      "price": 6000,
+      "oldPrice": 8000,
+      "discount": 25,
+      "image": "/images/products/throw-pillow.png",
+      "images": [
+        "/images/products/throw-pillow.png",
+        "https://images.pexels.com/photos/10971187/pexels-photo-10971187.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/6312058/pexels-photo-6312058.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.3,
+      "reviewCount": 47,
+      "featured": false,
+      "badge": "Cozy Pick",
+      "colors": [
+        "Gray",
+        "Beige",
+        "Blue"
+      ],
+      "description": "A soft decorative throw pillow designed to make your space more comfortable.",
+      "highlights": [
+        {
+          "title": "Soft Feel",
+          "description": "Comfortable fabric creates a soft and cozy feel."
+        },
+        {
+          "title": "Decorative Style",
+          "description": "Adds a simple decorative touch to your space."
+        },
+        {
+          "title": "Versatile Use",
+          "description": "Works well on sofas, beds, chairs, and lounge areas."
+        },
+        {
+          "title": "Easy Care",
+          "description": "Designed for convenient everyday maintenance."
+        }
+      ],
+      "specifications": {
+        "Size": "18 x 18 inches",
+        "Material": "Polyester",
+        "Fill": "Fiber",
+        "Care": "Spot Clean"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Coffee Maker",
+      "category": "Home & Living",
+      "price": 40000,
+      "oldPrice": 50000,
+      "discount": 20,
+      "image": "/images/products/coffee-maker.png",
+      "images": [
+        "/images/products/coffee-maker.png",
+        "https://images.pexels.com/photos/6132642/pexels-photo-6132642.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/4993062/pexels-photo-4993062.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.6,
+      "reviewCount": 112,
+      "featured": true,
+      "badge": "Best Seller",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "description": "Brew delicious coffee at home with this convenient coffee maker.",
+      "highlights": [
+        {
+          "title": "Easy Brewing",
+          "description": "Simple controls make preparing coffee convenient."
+        },
+        {
+          "title": "Fast Preparation",
+          "description": "Designed to brew your coffee quickly and efficiently."
+        },
+        {
+          "title": "Large Capacity",
+          "description": "Convenient capacity for preparing multiple cups."
+        },
+        {
+          "title": "Easy Cleaning",
+          "description": "Removable parts make routine cleaning simple."
+        }
+      ],
+      "specifications": {
+        "Capacity": "1.5L",
+        "Power": "900W",
+        "Type": "Drip Coffee Maker",
+        "Filter": "Reusable"
+      }
+    },
+    {
+      "id": "15",
+      "name": "Ceramic Vase",
+      "category": "Home & Living",
+      "price": 12000,
+      "oldPrice": 15000,
+      "discount": 20,
+      "image": "/images/products/ceramic-vase.png",
+      "images": [
+        "/images/products/ceramic-vase.png",
+        "https://images.pexels.com/photos/7119222/pexels-photo-7119222.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/29286721/pexels-photo-29286721.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.4,
+      "reviewCount": 54,
+      "featured": false,
+      "badge": "Home Decor",
+      "colors": [
+        "White",
+        "Beige",
+        "Blue"
+      ],
+      "description": "A beautiful ceramic vase that adds an elegant touch to your home.",
+      "highlights": [
+        {
+          "title": "Elegant Design",
+          "description": "A simple decorative design that complements different interiors."
+        },
+        {
+          "title": "Ceramic Build",
+          "description": "Made from sturdy ceramic for reliable everyday display."
+        },
+        {
+          "title": "Versatile Decor",
+          "description": "Looks great with flowers or as a standalone accent."
+        },
+        {
+          "title": "Stable Base",
+          "description": "Designed with a stable base for easy placement."
+        }
+      ],
+      "specifications": {
+        "Material": "Ceramic",
+        "Height": "10 inches",
+        "Use": "Indoor",
+        "Style": "Modern"
+      }
+    },
+    {
+      "id": "16",
+      "name": "Football",
+      "category": "Sports",
+      "price": 12000,
+      "oldPrice": 16000,
+      "discount": 25,
+      "image": "/images/products/football.png",
+      "images": [
+        "/images/products/football.png",
+        "https://images.pexels.com/photos/29920213/pexels-photo-29920213.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/32179310/pexels-photo-32179310.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.5,
+      "reviewCount": 91,
+      "featured": true,
+      "badge": "Sports Pick",
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "description": "A durable football suitable for training, practice, and casual games.",
+      "highlights": [
+        {
+          "title": "Durable Construction",
+          "description": "Built to handle regular training and casual play."
+        },
+        {
+          "title": "Reliable Grip",
+          "description": "Textured surface helps provide confident handling."
+        },
+        {
+          "title": "Balanced Shape",
+          "description": "Designed for consistent movement and control."
+        },
+        {
+          "title": "All-Purpose Use",
+          "description": "Suitable for practice, training, and recreational games."
+        }
+      ],
+      "specifications": {
+        "Size": "Size 5",
+        "Material": "Synthetic Leather",
+        "Use": "Training / Casual",
+        "Bladder": "Rubber"
+      }
+    },
+    {
+      "id": "17",
+      "name": "Running Shoes",
+      "category": "Sports",
+      "price": 35000,
+      "oldPrice": 45000,
+      "discount": 22,
+      "image": "/images/products/running-shoes.png",
+      "images": [
+        "/images/products/running-shoes.png",
+        "https://images.pexels.com/photos/260044/pexels-photo-260044.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/8454904/pexels-photo-8454904.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.7,
+      "reviewCount": 156,
+      "featured": false,
+      "badge": "Top Rated",
+      "colors": [
+        "Black",
+        "Blue",
+        "Gray"
+      ],
+      "description": "Lightweight running shoes designed for comfort and everyday training.",
+      "highlights": [
+        {
+          "title": "Lightweight Design",
+          "description": "Helps reduce unnecessary weight during movement."
+        },
+        {
+          "title": "Cushioned Support",
+          "description": "Comfortable cushioning supports everyday training."
+        },
+        {
+          "title": "Breathable Upper",
+          "description": "Designed to provide a comfortable feel during activity."
+        },
+        {
+          "title": "Durable Outsole",
+          "description": "Provides reliable traction for regular use."
+        }
+      ],
+      "specifications": {
+        "Upper": "Mesh",
+        "Sole": "Rubber",
+        "Closure": "Lace-Up",
+        "Use": "Running / Training"
+      }
+    },
+    {
+      "id": "18",
+      "name": "Gym Dumbbells",
+      "category": "Sports",
+      "price": 30000,
+      "oldPrice": 38000,
+      "discount": 21,
+      "image": "/images/products/dumbbells.png",
+      "images": [
+        "/images/products/dumbbells.png",
+        "https://images.pexels.com/photos/35567437/pexels-photo-35567437.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/19025674/pexels-photo-19025674.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.6,
+      "reviewCount": 73,
+      "featured": false,
+      "badge": "Fitness Pick",
+      "colors": [
+        "Black"
+      ],
+      "description": "Durable dumbbells suitable for strength training and home workouts.",
+      "highlights": [
+        {
+          "title": "Durable Build",
+          "description": "Designed for regular strength training and home workouts."
+        },
+        {
+          "title": "Comfortable Grip",
+          "description": "Textured handles help provide a secure grip."
+        },
+        {
+          "title": "Compact Design",
+          "description": "Easy to store in a home gym or workout space."
+        },
+        {
+          "title": "Versatile Training",
+          "description": "Suitable for a variety of strength exercises."
+        }
+      ],
+      "specifications": {
+        "Weight": "10kg Pair",
+        "Material": "Cast Iron",
+        "Handle": "Textured",
+        "Use": "Strength Training"
+      }
+    },
+    {
+      "id": "19",
+      "name": "Wristwatch",
+      "category": "Accessories",
+      "price": 30000,
+      "oldPrice": 40000,
+      "discount": 25,
+      "image": "/images/products/wristwatch.png",
+      "images": [
+        "/images/products/wristwatch.png",
+        "https://images.pexels.com/photos/9713527/pexels-photo-9713527.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/31642726/pexels-photo-31642726.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.8,
+      "reviewCount": 134,
+      "featured": false,
+      "badge": "Premium",
+      "colors": [
+        "Black",
+        "Silver",
+        "Gold"
+      ],
+      "description": "A stylish wristwatch designed to complement both casual and formal outfits.",
+      "highlights": [
+        {
+          "title": "Elegant Design",
+          "description": "A refined look that works with casual and formal outfits."
+        },
+        {
+          "title": "Reliable Timekeeping",
+          "description": "Designed for accurate everyday timekeeping."
+        },
+        {
+          "title": "Comfortable Strap",
+          "description": "A comfortable strap makes it suitable for extended wear."
+        },
+        {
+          "title": "Versatile Style",
+          "description": "Easy to pair with different outfits and occasions."
+        }
+      ],
+      "specifications": {
+        "Movement": "Quartz",
+        "Display": "Analog",
+        "Strap": "Leather",
+        "Water Resistance": "3 ATM"
+      }
+    },
+    {
+      "id": "20",
+      "name": "Eyeglasses",
+      "category": "Accessories",
+      "price": 15000,
+      "oldPrice": 20000,
+      "discount": 25,
+      "image": "/images/products/eyeglass.png",
+      "images": [
+        "/images/products/eyeglass.png",
+        "https://images.pexels.com/photos/5202049/pexels-photo-5202049.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/5752242/pexels-photo-5752242.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.4,
+      "reviewCount": 65,
+      "featured": true,
+      "badge": "New",
+      "colors": [
+        "Black",
+        "Brown",
+        "Clear"
+      ],
+      "description": "Modern eyeglasses with a simple design suitable for everyday wear.",
+      "highlights": [
+        {
+          "title": "Modern Frame",
+          "description": "A clean frame design suitable for everyday style."
+        },
+        {
+          "title": "Lightweight Feel",
+          "description": "Designed for comfortable wear throughout the day."
+        },
+        {
+          "title": "Durable Construction",
+          "description": "Made for reliable everyday use."
+        },
+        {
+          "title": "Versatile Look",
+          "description": "Simple styling that works with different outfits."
+        }
+      ],
+      "specifications": {
+        "Frame": "Acetate",
+        "Lens": "Clear",
+        "Shape": "Round",
+        "Use": "Everyday Wear"
+      }
+    },
+    {
+      "id": "21",
+      "name": "Leather Wallet",
+      "category": "Accessories",
+      "price": 12000,
+      "oldPrice": 16000,
+      "discount": 25,
+      "image": "/images/products/wallet.png",
+      "images": [
+        "/images/products/wallet.png",
+        "https://images.pexels.com/photos/34406263/pexels-photo-34406263.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/4452399/pexels-photo-4452399.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.5,
+      "reviewCount": 88,
+      "featured": false,
+      "badge": "Classic",
+      "colors": [
+        "Black",
+        "Brown"
+      ],
+      "description": "A compact leather wallet with enough space for everyday essentials.",
+      "highlights": [
+        {
+          "title": "Leather Finish",
+          "description": "A classic leather look designed for everyday use."
+        },
+        {
+          "title": "Compact Design",
+          "description": "Slim profile fits comfortably in a pocket or bag."
+        },
+        {
+          "title": "Multiple Compartments",
+          "description": "Provides convenient space for cards and everyday essentials."
+        },
+        {
+          "title": "Durable Build",
+          "description": "Designed to handle regular daily use."
+        }
+      ],
+      "specifications": {
+        "Material": "Leather",
+        "Card Slots": "6",
+        "Closure": "Fold",
+        "Style": "Bifold"
+      }
+    },
+    {
+      "id": "22",
+      "name": "Teddy Bear",
+      "category": "Toys",
+      "price": 10000,
+      "oldPrice": 13000,
+      "discount": 23,
+      "image": "/images/products/teddy-bear.png",
+      "images": [
+        "/images/products/teddy-bear.png",
+        "https://images.pexels.com/photos/19849143/pexels-photo-19849143.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/4887162/pexels-photo-4887162.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.8,
+      "reviewCount": 103,
+      "featured": false,
+      "badge": "Gift Pick",
+      "colors": [
+        "Brown",
+        "Cream"
+      ],
+      "description": "A soft and cuddly teddy bear that makes a lovely gift for children.",
+      "highlights": [
+        {
+          "title": "Soft Material",
+          "description": "Made with a soft plush material for comfortable cuddling."
+        },
+        {
+          "title": "Cuddly Design",
+          "description": "A friendly design made for hugs and play."
+        },
+        {
+          "title": "Gift Friendly",
+          "description": "A simple and thoughtful choice for birthdays and special occasions."
+        },
+        {
+          "title": "Lightweight",
+          "description": "Easy for children to carry and play with."
+        }
+      ],
+      "specifications": {
+        "Height": "12 inches",
+        "Material": "Plush",
+        "Filling": "Polyester",
+        "Age": "3+"
+      }
+    },
+    {
+      "id": "23",
+      "name": "Building Blocks",
+      "category": "Toys",
+      "price": 12000,
+      "oldPrice": 15000,
+      "discount": 20,
+      "image": "/images/products/building-block.png",
+      "images": [
+        "/images/products/building-block.png",
+        "https://images.pexels.com/photos/7123080/pexels-photo-7123080.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/7269700/pexels-photo-7269700.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.6,
+      "reviewCount": 79,
+      "featured": false,
+      "badge": "Kids Pick",
+      "colors": [
+        "Multi-Color"
+      ],
+      "description": "Creative building blocks that encourage fun and imaginative play.",
+      "highlights": [
+        {
+          "title": "Creative Play",
+          "description": "Encourages children to build and explore their imagination."
+        },
+        {
+          "title": "Colorful Pieces",
+          "description": "Bright pieces make building activities engaging and fun."
+        },
+        {
+          "title": "Reusable Fun",
+          "description": "Pieces can be combined into many different creations."
+        },
+        {
+          "title": "Skill Building",
+          "description": "Helps encourage creativity, coordination, and problem-solving."
+        }
+      ],
+      "specifications": {
+        "Pieces": "100",
+        "Material": "Plastic",
+        "Age": "3+",
+        "Type": "Building Toy"
+      }
+    },
+    {
+      "id": "24",
+      "name": "Toy Car",
+      "category": "Toys",
+      "price": 6000,
+      "oldPrice": 8000,
+      "discount": 25,
+      "image": "/images/products/toy-car.png",
+      "images": [
+        "/images/products/toy-car.png",
+        "https://images.pexels.com/photos/2767818/pexels-photo-2767818.jpeg?auto=compress&cs=tinysrgb&w=1200",
+        "https://images.pexels.com/photos/18070140/pexels-photo-18070140.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      ],
+      "rating": 4.4,
+      "reviewCount": 57,
+      "featured": true,
+      "badge": "Fun Pick",
+      "colors": [
+        "Red",
+        "Blue",
+        "Yellow"
+      ],
+      "description": "A fun toy car designed for exciting and imaginative play.",
+      "highlights": [
+        {
+          "title": "Fun Design",
+          "description": "A colorful design made for imaginative play."
+        },
+        {
+          "title": "Durable Build",
+          "description": "Designed to handle regular playtime use."
+        },
+        {
+          "title": "Easy to Handle",
+          "description": "Compact size makes it easy for children to hold and play with."
+        },
+        {
+          "title": "Imaginative Play",
+          "description": "Encourages creative stories and pretend-play activities."
+        }
+      ],
+      "specifications": {
+        "Material": "Plastic",
+        "Length": "6 inches",
+        "Wheels": "4",
+        "Age": "3+"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "customer": {
+        "fullName": "Ashraf Yahaya",
+        "email": "ashrafyahaya830@gmail.com",
+        "phone": "+2347066564484",
+        "address": "Senator Samhoo Street",
+        "city": "Kaduna",
+        "state": "Kaduna",
+        "postalCode": "800103",
+        "country": "Nigeria"
+      },
+      "items": [
+        {
+          "id": "4",
+          "name": "Wireless Keyboard",
+          "category": "Electronics",
+          "price": 18000,
+          "oldPrice": 24000,
+          "discount": 25,
+          "image": "/images/products/wireless-keyboard.png",
+          "images": [
+            "/images/products/wireless-keyboard.png",
+            "https://images.pexels.com/photos/4523056/pexels-photo-4523056.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            "https://images.pexels.com/photos/34051149/pexels-photo-34051149.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          ],
+          "rating": 4.3,
+          "reviewCount": 61,
+          "featured": false,
+          "badge": "Great Value",
+          "colors": [
+            "Black",
+            "White"
+          ],
+          "description": "A comfortable wireless keyboard designed for everyday work and browsing.",
+          "highlights": [
+            {
+              "title": "Comfortable Typing",
+              "description": "Responsive keys provide a comfortable typing experience."
+            },
+            {
+              "title": "Wireless Freedom",
+              "description": "Work without the clutter of unnecessary cables."
+            },
+            {
+              "title": "Compact Design",
+              "description": "A clean design that fits easily on your desk."
+            },
+            {
+              "title": "Long Battery Life",
+              "description": "Designed for reliable everyday use between battery changes."
+            }
+          ],
+          "specifications": {
+            "Connection": "2.4GHz Wireless",
+            "Layout": "Full Size",
+            "Battery": "Up to 12 months",
+            "Compatibility": "Windows / Mac"
+          },
+          "quantity": 1,
+          "selectedColor": "Black"
+        }
+      ],
+      "subtotal": 18000,
+      "shipping": 0,
+      "total": 18000,
+      "paymentMethod": "card",
+      "status": "Pending",
+      "createdAt": "2026-09-19T19:27:56.404Z",
+      "id": "9wTf-1yuR6A"
+    },
+    {
+      "customer": {
+        "fullName": "Ashraf Yahaya",
+        "email": "ashrafyahaya830@gmail.com",
+        "phone": "+2347066564484",
+        "address": "Senator Samhoo Street",
+        "city": "Kaduna",
+        "state": "Kaduna",
+        "postalCode": "800103",
+        "country": "Nigeria"
+      },
+      "items": [
+        {
+          "id": "2",
+          "name": "Smartwatch",
+          "category": "Electronics",
+          "price": 35000,
+          "oldPrice": 45000,
+          "discount": 22,
+          "image": "/images/products/smartwatch.png",
+          "images": [
+            "/images/products/smartwatch.png",
+            "https://images.pexels.com/photos/10339115/pexels-photo-10339115.jpeg?auto=compress&cs=tinysrgb&w=1200",
+            "https://images.pexels.com/photos/3161378/pexels-photo-3161378.jpeg?auto=compress&cs=tinysrgb&w=1200"
+          ],
+          "rating": 4.6,
+          "reviewCount": 94,
+          "featured": false,
+          "badge": "Popular",
+          "colors": [
+            "Black",
+            "Silver",
+            "Blue"
+          ],
+          "description": "Stay connected and track your daily activities with this stylish smartwatch.",
+          "highlights": [
+            {
+              "title": "Activity Tracking",
+              "description": "Track your daily steps, activity, and fitness goals."
+            },
+            {
+              "title": "Smart Notifications",
+              "description": "Receive calls, messages, and app notifications on your wrist."
+            },
+            {
+              "title": "Comfortable Design",
+              "description": "A lightweight design made for comfortable everyday wear."
+            },
+            {
+              "title": "Long Battery Life",
+              "description": "Enjoy reliable battery performance throughout your day."
+            }
+          ],
+          "specifications": {
+            "Display": "1.8-inch",
+            "Connectivity": "Bluetooth",
+            "Battery": "Up to 7 days",
+            "Water Resistance": "IP67"
+          },
+          "quantity": 1,
+          "selectedColor": "Black"
+        }
+      ],
+      "subtotal": 35000,
+      "shipping": 0,
+      "total": 35000,
+      "paymentMethod": "card",
+      "status": "Pending",
+      "createdAt": "2026-09-19T19:34:25.019Z",
+      "id": "IE7P4WYhhOo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
