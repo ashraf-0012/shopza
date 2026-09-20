@@ -1,5 +1,5 @@
 import { FiTruck, FiHelpCircle, FiMapPin } from "react-icons/fi";
-import "./TopBar.css";
+import "./Topbar.css";
 
 function Topbar() {
   return (
