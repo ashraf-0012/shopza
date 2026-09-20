@@ -33,16 +33,11 @@
   gap: 0.35rem;
 }
 
-/* Tablet */
+
 @media (max-width: 768px) {
   .topbar {
     display: none;
   }
 }
 
-/* Mobile */
-@media (max-width: 480px) {
-  .topbar {
-    display: none;
-  }
-}
+
