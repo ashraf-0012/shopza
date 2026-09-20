@@ -12,7 +12,7 @@ function FeaturedProducts() {
   const { wishlist, toggleWishlist } = useContext(WishlistContext);
 
   useEffect(() => {
-    fetch("http://localhost:3000/products")
+   fetch("https://shopza-4wb7.onrender.com/products")
       .then((response) => response.json())
       .then((data) => {
         const featuredProducts = data.filter(

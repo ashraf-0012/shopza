@@ -20,7 +20,7 @@ function ProductDetailsContent() {
     setLoading(true);
     setError("");
 
-    fetch("http://localhost:3000/products")
+    fetch("https://shopza-4wb7.onrender.com/products")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Unable to fetch products");

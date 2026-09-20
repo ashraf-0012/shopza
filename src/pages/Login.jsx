@@ -68,9 +68,7 @@ function Login() {
     setLoginError("");
 
     try {
-      const response = await fetch(
-        "http://localhost:3000/users"
-      );
+      const response = await fetch("https://shopza-4wb7.onrender.com/users");
 
       if (!response.ok) {
         throw new Error("Failed to fetch users");

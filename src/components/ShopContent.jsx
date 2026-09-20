@@ -18,7 +18,7 @@ function ShopContent() {
   const searchTerm = searchParams.get("search") || "";
 
   useEffect(() => {
-    fetch("http://localhost:3000/products")
+   fetch("https://shopza-4wb7.onrender.com/products")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch products");

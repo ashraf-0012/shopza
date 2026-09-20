@@ -5,14 +5,14 @@ function Orders() {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/orders")
++   fetch("https://shopza-4wb7.onrender.com/orders")
       .then((response) => response.json())
       .then((data) => setOrders(data));
   }, []);
 
   const updateOrderStatus = async (id, status) => {
     const response = await fetch(
-      `http://localhost:3000/orders/${id}`,
+      `https://shopza-4wb7.onrender.com/orders/${id}`,
       {
         method: "PATCH",
         headers: {

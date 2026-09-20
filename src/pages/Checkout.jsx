@@ -105,7 +105,7 @@ function Checkout() {
       createdAt: new Date().toISOString(),
     };
 
-    const response = await fetch("http://localhost:3000/orders", {
+    const response = await fetch("https://shopza-4wb7.onrender.com/orders", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
