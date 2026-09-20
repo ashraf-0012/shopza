@@ -26,7 +26,7 @@ function CartSummary() {
 
       <div className="summary-row">
         <span>Subtotal ({itemCount} items)</span>
-        <span>${subtotal.toLocaleString()}</span>
+        <span>₦{subtotal.toLocaleString()}</span>
       </div>
 
       <div className="summary-row">
@@ -34,13 +34,13 @@ function CartSummary() {
         <span className="shipping-free">
           {shipping === 0
             ? "Free"
-            : `$${shipping.toLocaleString()}`}
+            : `₦${shipping.toLocaleString()}`}
         </span>
       </div>
 
       <div className="summary-total">
         <span>Total</span>
-        <strong>${total.toLocaleString()}</strong>
+        <strong>₦{total.toLocaleString()}</strong>
       </div>
 
       <Link to="/checkout" className="checkout-button">

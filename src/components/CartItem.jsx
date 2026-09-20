@@ -28,7 +28,7 @@ function CartItem({ item }) {
         )}
 
         <p className="cart-item-price">
-          ${item.price.toLocaleString()}
+         ₦{item.price.toLocaleString()}
         </p>
       </div>
 
