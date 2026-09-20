@@ -16,11 +16,8 @@ function Login() {
   });
 
   const [rememberMe, setRememberMe] = useState(false);
-
   const [errors, setErrors] = useState({});
-
   const [loginError, setLoginError] = useState("");
-
   const [isLoading, setIsLoading] = useState(false);
 
   const handleChange = (event) => {
@@ -58,9 +55,7 @@ function Login() {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    const isValid = validateForm();
-
-    if (!isValid) {
+    if (!validateForm()) {
       return;
     }
 
@@ -68,7 +63,9 @@ function Login() {
     setLoginError("");
 
     try {
-      const response = await fetch("https://shopza-4wb7.onrender.com/users");
+      const response = await fetch(
+        "https://shopza-4wb7.onrender.com/users"
+      );
 
       if (!response.ok) {
         throw new Error("Failed to fetch users");
@@ -79,7 +76,7 @@ function Login() {
       const user = users.find(
         (user) =>
           user.email.toLowerCase() ===
-          formData.email.toLowerCase() &&
+            formData.email.toLowerCase() &&
           user.password === formData.password
       );
 
@@ -124,8 +121,6 @@ function Login() {
   return (
     <main className="login-page">
       <div className="login-container">
-
-        {/* Left side */}
         <div className="login-form-section">
           <p>Welcome back</p>
 
@@ -136,8 +131,6 @@ function Login() {
           </p>
 
           <form onSubmit={handleSubmit}>
-
-            {/* Email */}
             <div>
               <label>Email address</label>
 
@@ -156,15 +149,12 @@ function Login() {
               )}
             </div>
 
-            {/* Password */}
             <div className="password-field">
               <label>Password</label>
 
               <div className="password-input">
                 <input
-                  type={
-                    showPassword ? "text" : "password"
-                  }
+                  type={showPassword ? "text" : "password"}
                   name="password"
                   value={formData.password}
                   onChange={handleChange}
@@ -193,7 +183,6 @@ function Login() {
               )}
             </div>
 
-            {/* Remember / Forgot */}
             <div className="login-options">
               <label>
                 <input
@@ -203,7 +192,6 @@ function Login() {
                     setRememberMe(event.target.checked)
                   }
                 />
-
                 Remember me
               </label>
 
@@ -212,14 +200,12 @@ function Login() {
               </button>
             </div>
 
-            {/* Login error */}
             {loginError && (
               <p className="login-error">
                 {loginError}
               </p>
             )}
 
-            {/* Login */}
             <button
               type="submit"
               disabled={isLoading}
@@ -227,12 +213,10 @@ function Login() {
               {isLoading ? "Logging in..." : "Login"}
             </button>
 
-            {/* Divider */}
             <div className="login-divider">
               <span>or</span>
             </div>
 
-            {/* Google */}
             <button
               type="button"
               className="google-button"
@@ -241,16 +225,13 @@ function Login() {
               <span>Continue with Google</span>
             </button>
 
-            {/* Signup */}
             <p className="signup-text">
               Don't have an account?{" "}
               <Link to="/signup">Sign up</Link>
             </p>
-
           </form>
         </div>
 
-        {/* Right side */}
         <div className="login-image-section">
           <img
             src="/images/login/login-image.png"
@@ -266,10 +247,10 @@ function Login() {
             </p>
           </div>
         </div>
-
       </div>
     </main>
   );
 }
 
 export default Login;
+

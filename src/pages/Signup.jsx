@@ -77,9 +77,7 @@ function Signup() {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
-    const isValid = validateForm();
-
-    if (!isValid) {
+    if (!validateForm()) {
       return;
     }
 
@@ -87,8 +85,9 @@ function Signup() {
     setSignupError("");
 
     try {
-      // Get existing users
-      const response = await fetch("https://shopza-4wb7.onrender.com/users");
+      const response = await fetch(
+        "https://shopza-4wb7.onrender.com/users"
+      );
 
       if (!response.ok) {
         throw new Error("Failed to fetch users");
@@ -96,7 +95,6 @@ function Signup() {
 
       const users = await response.json();
 
-      // Check if email already exists
       const existingUser = users.find(
         (user) =>
           user.email.toLowerCase() ===
@@ -112,7 +110,6 @@ function Signup() {
         return;
       }
 
-      // Create new user
       const newUser = {
         fullName: formData.fullName,
         email: formData.email,
@@ -153,8 +150,6 @@ function Signup() {
   return (
     <main className="signup-page">
       <div className="signup-container">
-
-        {/* Left side */}
         <div className="signup-form-section">
           <p>Create your account</p>
 
@@ -166,8 +161,6 @@ function Signup() {
           </p>
 
           <form onSubmit={handleSubmit}>
-
-            {/* Full name */}
             <div>
               <label>Full name</label>
 
@@ -186,7 +179,6 @@ function Signup() {
               )}
             </div>
 
-            {/* Email */}
             <div>
               <label>Email address</label>
 
@@ -205,15 +197,12 @@ function Signup() {
               )}
             </div>
 
-            {/* Password */}
             <div>
               <label>Password</label>
 
               <div className="password-input">
                 <input
-                  type={
-                    showPassword ? "text" : "password"
-                  }
+                  type={showPassword ? "text" : "password"}
                   name="password"
                   value={formData.password}
                   onChange={handleChange}
@@ -242,7 +231,6 @@ function Signup() {
               )}
             </div>
 
-            {/* Confirm password */}
             <div>
               <label>Confirm password</label>
 
@@ -283,14 +271,12 @@ function Signup() {
               )}
             </div>
 
-            {/* Signup error */}
             {signupError && (
               <p className="signup-error">
                 {signupError}
               </p>
             )}
 
-            {/* Signup button */}
             <button
               type="submit"
               disabled={isLoading}
@@ -300,12 +286,10 @@ function Signup() {
                 : "Create account"}
             </button>
 
-            {/* Divider */}
             <div className="signup-divider">
               <span>or</span>
             </div>
 
-            {/* Google */}
             <button
               type="button"
               className="google-button"
@@ -314,16 +298,13 @@ function Signup() {
               <span>Continue with Google</span>
             </button>
 
-            {/* Login */}
             <p className="login-text">
               Already have an account?{" "}
               <Link to="/login">Login</Link>
             </p>
-
           </form>
         </div>
 
-        {/* Right side */}
         <div className="signup-image-section">
           <h2>Everything you need, all in one place.</h2>
 
@@ -332,7 +313,6 @@ function Signup() {
             smoother shopping experience.
           </p>
         </div>
-
       </div>
     </main>
   );

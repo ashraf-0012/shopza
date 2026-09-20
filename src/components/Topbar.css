@@ -35,22 +35,14 @@
 
 /* Tablet */
 @media (max-width: 768px) {
-  .top-bar {
-    padding: 0.6rem 5%;
-  }
-
-  .top-bar-right {
-    gap: 1rem;
+  .topbar {
+    display: none;
   }
 }
+
 /* Mobile */
 @media (max-width: 480px) {
-  .top-bar {
-    padding: 0.6rem 4%;
-    font-size: 0.75rem;
-  }
-
-  .top-bar-right {
-    gap: 0.8rem;
+  .topbar {
+    display: none;
   }
 }
