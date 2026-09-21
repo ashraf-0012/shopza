@@ -27,6 +27,7 @@ function Navbar() {
   const handleSearch = (event) => {
     if (event.key === "Enter") {
       navigate(`/shop?search=${search}`);
+      setSearch("");
     }
   };
 
